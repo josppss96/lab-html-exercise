@@ -1,8 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 body {
-  font-family: 'Poppins';
+    font-family: 'Poppins';
+  }
+
+#section1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
 }
+#section2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+
 header > div {
     padding: 0 25px;
     display: flex;
@@ -10,7 +27,65 @@ header > div {
     align-items: center;
     border-bottom: 1px solid lightgray;
   }
-  
+#joinButton{
+  border: 2px;
+  margin-right: 10px;
+  border-color: lightgray;
+  text-decoration: none;
+  color: black;
+
+}
+#loginButton{
+  text-decoration: none;
+  color: black;
+}
+
+ #searchButton{
+    background-color: #fb3e44;
+    color: white;
+    padding: 8px;
+    border-radius: 10%;
+  }
+  #title{
+    font-size: 60px;
+    text-align: center;
+    margin: 30px auto 15px auto;
+  }
+  #descriptorText{
+    width: 300px;
+    font-size: 12px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+#redButtonSeePlan{
+  background-color: #fb3e44;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  text-shadow: 8px 8px 0 rgba(251, 59, 73, .2);
+}
+#joinForFreeButton{
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  margin-left: 100px;
+}
+
+#centering{
+  margin: auto;
+  text-align: center;
+}
+    
+#npmLogo{
+    width: 30px;
+    margin-right: 1rem;
+}
+#magnifyingGlass{
+    padding-top: 5px;
+    width: 20px;
+}
+ 
   nav {
     width: 600px;
   }
@@ -27,6 +102,7 @@ header > div {
     color: black;
   }
   
+
   .blackHeart {
     width: 20px;
     margin-right: 1rem;
